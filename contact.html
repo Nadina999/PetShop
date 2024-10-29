@@ -62,54 +62,43 @@
 
   <section class="contact_section layout_padding-top">
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-5 offset-md-1">
-          <div class="form_container">
-            <div class="heading_container">
-              <img src="images/heading-img.png" alt="">
-              <h2>
-                Popunite zahtjev
-              </h2>
-              <p>
-                Ukoliko imate pitanja, zahtjeva, nedoumica, možete nam se ovdje obratiti!
-              </p>
+        <div class="row">
+            <div class="col-md-5 offset-md-1">
+                <div class="form_container">
+                    <div class="heading_container">
+                        <img src="images/heading-img.png" alt="">
+                        <h2>
+                            Popunite zahtjev
+                        </h2>
+                        <p>
+                            Ukoliko imate pitanja, zahtjeva, nedoumica, možete nam se ovdje obratiti!
+                        </p>
+                    </div>
+                    <form action="connect.php" method="post">
+                        <div>
+                            <input type="text" placeholder="Ime i prezime " name="name" required />
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Broj telefona" name="number" required />
+                        </div>
+                        <div>
+                            <input type="email" placeholder="Email" name="email" required />
+                        </div>
+                        <div>
+                            <input type="text" class="message-box" placeholder="Poruka" name="message" required />
+                        </div>
+                        <div class="d-flex">
+                            <button type="submit">POŠALJI</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <form action="">
-              <div>
-                <input type="text" placeholder="Ime i prezime " />
-              </div>
-              <div>
-                <input type="text" placeholder="Broj telefona" />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Poruka" />
-              </div>
-              <div class="d-flex ">
-                <button>
-                  POŠALJI
-                </button>
-              </div>
-            </form>
-          </div>
         </div>
-        <div class="col-md-6 px-0">
-          <div class="map_container">
-            <div class="map-responsive">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d45505.225064393664!2d18.679644850000003!3d44.5340648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1shr!2sba!4v1717328465836!5m2!1shr!2sba" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
 
 
-
-
-  <section class="info_section ">
+ <section class="info_section ">
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-lg-3">
