@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Povezivanje sa bazom podataka
     $servername = "localhost";
     $username = "root";
-    $password = "aezakmi77";
+    $password = "";
     $dbname = "contact"; // Uverite se da je naziv baze ispravan
 
     // Kreiranje konekcije
